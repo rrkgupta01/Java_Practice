@@ -1,0 +1,12 @@
+
+public class StringContainsVowels{
+
+    public static void main(String args[]){
+        String word="Rahul";
+
+        System.out.println(containsVowels(word));
+    }
+    public static boolean containsVowels(String s){
+        return s.toLowerCase().matches(".*[aeiou].*");
+     }
+}
